@@ -55,7 +55,7 @@ PRODUCT_PACKAGES += \
 
 # Mobicore
 PRODUCT_PACKAGES += \
-	keystore.exynos5
+    AdvancedDisplay
 
 # Packages
 PRODUCT_PACKAGES += \
@@ -198,6 +198,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	com.android.future.usb.accessory
+	
+# hardware/samsung/AdvancedDisplay (MDNIE)
+PRODUCT_PACKAGES += \
+    SamsungDoze \
+    AdvancedDisplay
 
 # WIFI
 PRODUCT_COPY_FILES += \
